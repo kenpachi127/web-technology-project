@@ -20,8 +20,8 @@ function App() {
       <Route path="/login" element={<Login />} />
       <Route path="/signup" element={<Signup />} />
 
-      <Route path = '/'element = {<MainLayout /> }>
-          <Route index element = {<Home /> } />
+      <Route path="/" element={<MainLayout />}>
+          <Route index element={<Home />} />
           <Route path="withdraw" element={<Withdraw />} />
           <Route path="deposit" element={<Deposit />} />
           <Route path="transfer" element={<Transfer />} />
